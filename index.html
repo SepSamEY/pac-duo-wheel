@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Spin Wheel App</title>
+		<!-- Google Font -->
+		<link
+		  href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&display=swap"
+		  rel="stylesheet"/>
+		<!-- Stylesheet -->
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="wrapper">
+			<h1 class="adaptive-width center-align">Pac-Duo-Wheel/DwiRoda-Pak</h1>
+			<h3 class="adaptive-width center-align">Percussion-action double spinwheel/roda pasangan aksi-perkusi.</h3>
+			<div class="row">
+				<div class="column">	
+					<div class="container">
+						<h2 class="adaptive-width">RODA PERGERAKAN</h2>
+						<canvas class="wheel" id="wheel1"></canvas>
+						<img class="arrow" id="arrow1" src="Image/arrow.png" alt="spinner arrow" />
+					</div>
+					<div class="final-value" id="final-value1">
+					</div>
+					<div class="img-holder">
+						<img class="result" id="image1" src="Image/BBM1/Slide1.png" alt="HENTAK KAKI">
+						<img class="result" id="image2" src="Image/BBM1/Slide2.png" alt="PETIK JARI">
+						<img class="result" id="image3" src="Image/BBM1/Slide3.png" alt="LOMPAT SEBELAH KAKI">
+						<img class="result" id="image4" src="Image/BBM1/Slide4.png" alt="BELARI">
+						<img class="result" id="image5" src="Image/BBM1/Slide5.png" alt="LOMPAT">
+						<img class="result" id="imageR1" src="Image/Random.png" alt="RANDOM">
+					</div>
+				</div>
+				<div class="column btn">
+					<div>
+					</div>
+					<button id="spin-btn">Spin</button>
+					<div></div>
+				</div>
+				<div class="column">
+					<div class="container">
+						<h2 class="adaptive-width">RODA PERKUSI</h2>
+						<canvas class="wheel" id="right-wheel"></canvas>
+						<img class="arrow" id="arrow2" src="Image/arrow.png" alt="spinner arrow" />
+					</div>
+					<div class="final-value" id="final-value2">
+					</div>
+					<div class="img-holder">
+						<img class="result" id="image6" src="Image/BBM2/Slide6.png" alt="HENTAK KAKI">
+						<img class="result" id="image7" src="Image/BBM2/Slide7.png" alt="PETIK JARI">
+						<img class="result" id="image8" src="Image/BBM2/Slide8.png" alt="LOMPAT SEBELAH KAKI">
+						<img class="result" id="image9" src="Image/BBM2/Slide9.png" alt="BELARI">
+						<img class="result" id="image10" src="Image/BBM2/Slide10.png" alt="LOMPAT">
+						<img class="result" id="imageR2" src="Image/Random.png" alt="RANDOM">
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		<!-- Chart JS -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+		<!-- Chart JS Plugin for displaying text over chart -->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-datalabels/2.1.0/chartjs-plugin-datalabels.min.js"></script>
+		<!-- Script -->
+		<script src="script.js"></script>
+		<script src="script2.js"></script>
+	</body>
+</html>
+
+
